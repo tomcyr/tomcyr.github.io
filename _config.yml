@@ -1,0 +1,36 @@
+# Site settings
+title: Tomasz Cyrankowski
+description: 'Business Card Page'
+#url: 'http://concept-it.pl'
+baseurl: ''
+profilepic: '/images/foto_tomasz-cyrankowski.png'
+bkimage: '/images/cover.jpg'
+google_analytics: UA-25407490-5
+font_awesome: '47d6f30d38.js'
+
+author:
+  name: 'Tomasz Cyrankowski'
+#  email: info@xxx
+#  twitter_username: xxx
+#  facebook_username: xxx
+  github_username:  tomcyr
+  linkedin_username:  tomasz-cyrankowski-6532b8188
+#  meetup_name: xxx
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
